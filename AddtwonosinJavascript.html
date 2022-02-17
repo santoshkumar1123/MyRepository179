@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function add(){
+var a,b,c;
+a=parseFloat(document.getElementById("first").value);
+b=parseFloat(document.getElementById("second").value);
+c= a + b;
+document.getElementById("answer").value= c;
+}
+</script>
+</head>
+<body>
+<h1> Add two numbers </h1>
+Enter the First number : <input id="first"><br>
+Enter the Second number: <input id="second"><br>
+<input type="button" onclick="add()" value="Add">
+<input id="answer">
+</body>
+</html>
